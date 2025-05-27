@@ -1,0 +1,16 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+.env/
+*.env
+
+# Ignore IDE settings (optional, for VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Ignore a specific directory
+knowledge_base/
+seccode/
