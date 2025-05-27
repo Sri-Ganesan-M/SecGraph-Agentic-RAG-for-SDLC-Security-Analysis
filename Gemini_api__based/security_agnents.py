@@ -7,7 +7,7 @@ from langchain_core.runnables import RunnablePassthrough, RunnableLambda
 from langchain_core.output_parsers import StrOutputParser
 from operator import itemgetter
 from langchain.agents import Tool 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBKHcf5iD2qPu00TNe5WMlzc-1vDZkkyF8"
+os.environ["GOOGLE_API_KEY"] = ""
 BASE_CHROMA_DB_DIR = "chroma_db"
 EMBEDDING_MODEL = "models/embedding-001" 
 LLM_MODEL = "gemini-2.0-flash" 
