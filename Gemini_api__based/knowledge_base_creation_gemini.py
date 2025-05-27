@@ -5,7 +5,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_google_genai import GoogleGenerativeAIEmbeddings 
 from langchain_community.vectorstores import Chroma
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBKHcf5iD2qPu00TNe5WMlzc-1vDZkkyF8"
+os.environ["GOOGLE_API_KEY"] = ""
 
 # Base directory for the raw knowledge base files
 BASE_KB_DIR = "/Users/sriganesan/DATA/Software_Security/knowledge_base"
