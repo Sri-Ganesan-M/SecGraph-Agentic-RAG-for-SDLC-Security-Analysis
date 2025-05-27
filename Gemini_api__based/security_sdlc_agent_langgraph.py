@@ -13,7 +13,7 @@ from langgraph.graph import StateGraph, END
 from security_agnents import tools, EMBEDDING_MODEL, LLM_MODEL # Corrected from security_agnents
 
 # Google API Key setup
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBKHcf5iD2qPu00TNe5WMlzc-1vDZkkyF8" # Your hardcoded key
+os.environ["GOOGLE_API_KEY"] = "" # Your hardcoded key
 
 # LLM setup
 AGENT_LLM = ChatGoogleGenerativeAI(model=LLM_MODEL, temperature=0) # Keep temperature at 0 for deterministic tool calling
