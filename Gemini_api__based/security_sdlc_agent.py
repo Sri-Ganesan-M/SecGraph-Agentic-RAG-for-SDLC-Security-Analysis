@@ -1,6 +1,6 @@
 import os
 # --- Insert your API Key directly here (FOR TESTING ONLY - NOT RECOMMENDED FOR PRODUCTION) ---
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBKHcf5iD2qPu00TNe5WMlzc-1vDZkkyF8"
+os.environ["GOOGLE_API_KEY"] = ""
 # -----------------------------------------------------------------------------------------
 
 from langchain_google_genai import ChatGoogleGenerativeAI
